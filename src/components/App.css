@@ -1,0 +1,141 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.body {
+  position: relative;
+  background: url("https://media-cldnry.s-nbcnews.com/image/upload/t_fit-760w,f_auto,q_auto:best/newscms/2019_05/2736521/190131-stock-taco-bar-food-ew-1220p.jpg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.heading {
+  letter-spacing: 13px;
+  color: white;
+  font-size: 70px;
+  font-family: "Shadows Into Light", cursive;
+  background-color: olive;
+}
+.btn {
+  letter-spacing: 3px;
+}
+
+.search-box {
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.recipelist {
+  font-size: 25px;
+  text-align: center;
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.recipelist {
+  position: absolute;
+  top: 43%;
+}
+
+.grids {
+  position: absolute;
+  top: 55%;
+  display: grid;
+  grid-gap: 60px 100px;
+}
+
+.contact {
+  position: absolute;
+  top: 150px;
+  left: 15%;
+  width: 60%;
+}
+@media screen and (max-width:650px) {
+  .contact{
+  left: 12%;
+    width: 80%;
+  }
+}
+
+.paraofabout {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  width: 80%;
+  align-items: center;
+  font-size: large;
+}
+
+.iconss {
+  position: absolute;
+  left: 80%;
+  top: 57%;
+  transform: translate(-80% -57%);
+}
+@media screen and (max-width:500px) {
+  .iconss{
+    left: 110%;
+    top: 74%;
+  transform: translate(-50% -50%);
+  }
+}
+@media screen and (min-width:750px) and (max-width:850px) {
+  .iconss{
+    left: 85%;
+    top: 68%;
+  transform: translate(-50% -50%);
+  }
+}
+
+
+.hold{
+  position: absolute;
+  top: 0.3rem;
+  left: -3rem;
+  width: 20rem;
+  color: rgba(26, 26, 26, 0.686);
+  font-size: 20px
+}
+
+.inputss {
+  position: absolute;
+  left: -2rem;
+}
+
+.backimg{
+  background: url("https://img.freepik.com/free-photo/top-close-up-view-vegetables-tomatoes-with-pedicels-garlic-bell-peppers-lemon-oil-onion_140725-72203.jpg?size=626&ext=jpg&ga=GA1.1.1412446893.1705276800&semt=ais");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 120vh;
+}
+
+@media screen and (max-width: 650px) {
+  .backimg{
+    min-height: 220vh;
+  }
+}
+
+.bootnav{
+  background-color: black;
+}
+
+.load{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+}
